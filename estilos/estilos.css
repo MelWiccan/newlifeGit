@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+    /* BOX MODELING*/
+
+    body{
+        
+        background-color: rgb(218, 215, 205);
+    }
+
+    header{
+        background-color: rgb(166, 128, 140); 
+        padding: 40px 50px 40px 50px;
+        margin: 20px 10px 20px 10px;
+        position: sticky;
+        top: 10px;
+        text-align: center;
+        font-size: large;
+        font-family:'Poppins', sans-serif
+        }
+
+    ul {
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(52, 78, 65)
+    }
+    h1 {
+        color: rgb(52, 78, 65);
+        padding: 20px; 
+        margin: 20px 10px 20px 10px;
+        text-align: center;
+        font-size: xx-large;
+        font-family:'Poppins', sans-serif
+        
+    }
+
+    #tituloPrincipal{
+        color: rgb(86, 82, 100);
+            
+    }
+
+    #tituloDos{
+        color: rgb(112, 102, 119);
+    }
+
+    h2{
+        color: rgb(52, 78, 65);
+        padding: 20px; 
+        margin: 20px 10px 20px 10px;
+        text-align: center;
+        font-size: x-large;
+        font-family:'Poppins', sans-serif
+    }
+
+    p{
+        color: rgb(58, 90, 64); 
+        padding: 10px 20px 10px 20px;
+        margin: 10px;
+        text-align: center;
+        font-size: large;
+        font-family:'Poppins', sans-serif
+    }
+    
+    img {
+        
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        border: 10px solid rgb(163, 177, 138);
+    }
+    footer{
+        padding: 40px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        background-color: rgb(204, 183, 174);
+        font-size: large;
+        font-family:'Poppins', sans-serif
+    }
+
+    main{
+        color: rgb(52, 78, 65);
+        text-align: center;
+        font-size: medium;
+        font-family:'Poppins', sans-serif;
+    }
+
+    form{
+        color: rgb(52, 78, 65);
+        text-align: center;
+        font-size: medium;
+        font-family:'Poppins', sans-serif;
+    }
+    .genero{
+        display: inline-block
+    }
+    .hombre{
+        display: inline-block
+    }
+    .mujer{
+        display: inline-block
+    }
+    .prefieroNoDecirlo{
+        display: inline-block
+    }
+    select{
+        font-size: small;
+        font-family:'Poppins', sans-serif;
+    }
+    input{
+        font-size: small;
+        font-weight: bold;
+        font-family:'Poppins', sans-serif;
+    }

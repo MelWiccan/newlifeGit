@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+               
+                <li>
+                    <a href="productoshogar.html">Productos Hogar</a>
+                </li>
+               
+                <li>
+                    <a href="productos.html">Productos Cuerpo</a>
+                </li>
+                <li>
+                    <a href="nosotras.html">Nosotras</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+    <h1>Contáctanos</h1>
+
+    <form>
+        <label for="nombre_apellido">Nombre y apellido:</label>
+        <input type="text" name="nombre_apellido"/>
+
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad"/>
+
+        <label for="e_mail">E-mail:</label>
+        <input type="text" name="e_mail"/> <br>
+
+        <div class="genero">Género:</div>     
+        <div class="hombre">Hombre</div>
+        <input type="radio" name="sexo" value="hombre">
+        <div class="mujer">Mujer</div>
+        <input type="radio" name="sexo" value="mujer">
+        <div class="prefieroNoDecirlo">Prefiero no decirlo</div>
+        <input type="radio" name="sexo" value="prefieroNoDecirlo"> 
+
+       <div>Seleccione tipo de producto</div>
+        <select name="producto" id="">
+            <option value="paraCuerpo">Cuerpo</option>
+            <option value="paraHogar">Hogar</option>
+            
+        </select> <br>
+
+        <textarea name="message" rows="20" cols="60">
+            
+        </textarea> <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+        <input type="button" value="Sin acciones">
+
+    </form>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
